@@ -159,8 +159,8 @@ export default function Home() {
               <div className="flex flex-col gap-2">
                 {[
                   { org: "Meesho", detail: "2 years" },
-                  { org: "Imperial College London", detail: "MyTax Fellow" },
-                  { org: "University of Calgary", detail: "MyTax Fellow" },
+                  { org: "Imperial College London", detail: "Research Intern" },
+                  { org: "University of Calgary", detail: "MITACS Research Intern" },
                   { org: "E-Cell, IIT Madras", detail: "3 years" },
                 ].map((item) => (
                   <div key={item.org} className="flex items-center gap-3 rounded-xl border border-white/8 bg-white/[0.02] px-4 py-2.5">
@@ -206,35 +206,32 @@ export default function Home() {
 
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  At Meesho, I worked with sellers running small businesses from
-                  Tier 3 and 4 cities — first-generation entrepreneurs who had never
-                  touched a software product before. A smartphone and an internet
-                  connection had already unlocked something for them. But building
-                  software <em className="text-gray-300">for</em> them — at their
-                  price point, in their context — was still expensive, slow, and
-                  required entire product teams they couldn&apos;t afford.
+                  I build AI agents — not as a startup, but because I genuinely
+                  believe it&apos;s the most useful thing I can do with my time outside
+                  work. Every project here is something I built to solve a real
+                  problem, shipped, and put in front of real people.
                 </p>
                 <p>
-                  That observation isn&apos;t new. What&apos;s new is AI. An agent today can
-                  handle customer queries, process documents, generate reports, and
-                  surface insights — the operational leverage that used to cost crores
-                  to build. It doesn&apos;t care whether you&apos;re in Bengaluru or Bhagalpur.
-                  It just needs a good problem and someone to point it at one.
+                  At Meesho, I worked closely with sellers running small businesses
+                  from Tier 3 and 4 cities — people who had never used a software
+                  product before, but whose lives had already been changed by a
+                  smartphone and an internet connection. The missing piece was always
+                  the same: the tools that could genuinely help them were too
+                  expensive and too complex to reach them.
                 </p>
                 <p>
-                  Before Meesho, I spent three years at E-Cell IIT Madras seeing
-                  what happens when you give the right tools to the right people.
-                  As a MyTax fellow at Imperial College London and the University of
-                  Calgary, I worked on how technology and policy interact to create
-                  — or close — access gaps. The pattern is consistent: the gap between
-                  what technology can do and who it reaches is almost always a
-                  distribution problem, not a capability problem.
+                  AI changes that equation. An agent today can handle what used to
+                  require an entire ops team — at a fraction of the cost, available
+                  to anyone with a problem worth solving. As a Research Intern at
+                  Imperial College London and a MITACS Research Intern at the
+                  University of Calgary, I worked on how technology creates or closes
+                  access gaps. The pattern is always the same: it&apos;s a distribution
+                  problem, not a capability problem.
                 </p>
                 <p className="text-white font-medium">
-                  Agents are the distribution fix. I&apos;m here to build them for the
-                  problems that actually matter to the 800 million people the market
-                  has consistently ignored — and I&apos;m looking for builders who see
-                  the same window and want to ship through it together.
+                  Agents are the distribution fix. This is where I build them —
+                  one real problem at a time — and where I&apos;m looking for others who
+                  want to do the same.
                 </p>
               </div>
             </motion.div>
